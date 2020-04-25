@@ -1,5 +1,5 @@
 # Polling
-A File Polling Application using Clean Architecture
+A File Polling Application using Clean Architecture and Command Query Responsibility Segregation
 
 - [ ]    Create Basic Clean Architecture Template
 - [ ]    MediatR
