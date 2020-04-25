@@ -1,7 +1,7 @@
 # Polling
 A File Polling Application using Clean Architecture and Command Query Responsibility Segregation
 
-- [ ]    Create Basic Clean Architecture Template
+- [x]    Create Basic Clean Architecture Template
 - [ ]    MediatR
 - [ ]    AutoFac
 - [ ]    Logging using SeriLog
