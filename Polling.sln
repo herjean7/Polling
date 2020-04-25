@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polling.Application", "Poll
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polling.Infrastructure", "Polling.Infrastructure\Polling.Infrastructure.csproj", "{9B878B6D-57D4-4226-9C1D-959C5CF57A04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polling.Test", "Polling.Test\Polling.Test.csproj", "{4301689D-91BA-43BE-98C2-2B39276B0DD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9B878B6D-57D4-4226-9C1D-959C5CF57A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B878B6D-57D4-4226-9C1D-959C5CF57A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B878B6D-57D4-4226-9C1D-959C5CF57A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4301689D-91BA-43BE-98C2-2B39276B0DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4301689D-91BA-43BE-98C2-2B39276B0DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4301689D-91BA-43BE-98C2-2B39276B0DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4301689D-91BA-43BE-98C2-2B39276B0DD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
