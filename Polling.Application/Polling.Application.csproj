@@ -47,6 +47,12 @@
     <Compile Include="Interfaces\IFilingService.cs" />
     <Compile Include="Interfaces\ILoggingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseCases\Commands\CreateRequestFile\CreateFileRequestValidator.cs" />
+    <Compile Include="UseCases\Commands\CreateRequestFile\CreateRequestFileHandler.cs" />
+    <Compile Include="UseCases\Commands\DepositRequestFile\DepositFileRequestHandler.cs" />
+    <Compile Include="UseCases\Commands\DepositRequestFile\DepositFileRequestValidator.cs" />
+    <Compile Include="UseCases\Queries\PollRequestFile\PollRequestFileHandler.cs" />
+    <Compile Include="UseCases\Queries\PollRequestFile\PollRequestFileValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Polling\Polling.Domain.csproj">
@@ -57,13 +63,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UseCases\CreateFile\Commands\" />
-    <Folder Include="UseCases\CreateFile\Queries\" />
-    <Folder Include="UseCases\DepositFile\Commands\" />
-    <Folder Include="UseCases\DepositFile\Queries\" />
-    <Folder Include="UseCases\PollFile\Commands\" />
-    <Folder Include="UseCases\PollFile\Queries\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
