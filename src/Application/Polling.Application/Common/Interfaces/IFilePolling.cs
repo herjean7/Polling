@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polling.Application.Interfaces
+namespace Polling.Application.Common.Interfaces
 {
-    public interface IFilingService
+    public interface IFilePolling
     {
+        String GetDocID(string fileref);
     }
 }
