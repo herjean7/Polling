@@ -57,12 +57,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Polling\Polling.Domain.csproj">
-      <Project>{d611b2ee-81de-4456-91eb-b06660afc85c}</Project>
-      <Name>Polling.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
