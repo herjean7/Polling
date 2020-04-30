@@ -86,8 +86,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoggingService\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DateTimeService\DateTimeService.cs" />
+    <Compile Include="Services\LoggingService\Logger.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Polling.Application\Polling.Application.csproj">
@@ -96,9 +97,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FilingService\" />
+    <Folder Include="Services\FilePollingService\" />
+    <Folder Include="Services\FilingService\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
